@@ -1,0 +1,23 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "background.js" ]
+      }
+   },
+   "file_handlers": {
+      "text": {
+         "title": "Text editor",
+	 "types": [ "text/*" ]
+      }
+   },
+   "manifest_version": 2,
+   "minimum_chrome_version": "30",
+   "name": "Convert BoookMark - JSON to HTML",
+   "permissions": [ 
+      {
+	"fileSystem": [ "write", "retainEntries" ]
+      }, 
+      "storage"
+    ],
+   "version": "1.0"
+}
